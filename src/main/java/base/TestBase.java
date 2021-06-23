@@ -42,7 +42,9 @@ public class TestBase {
                 driver = new FirefoxDriver();
             }
             driver.manage().window().maximize();
-            driver.get(prop.getProperty("url"));
+            driver.get(prop.getProperty("url1"));
+
+
 
         }
 
