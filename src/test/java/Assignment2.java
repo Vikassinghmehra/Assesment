@@ -36,25 +36,7 @@ public class Assignment2 extends TestBase {
             System.out.println("------------------------------------");
             System.out.println(s);
         }
-        /*driver.switchTo().frame(driver.findElement(By.id("mce_0_ifr")));
-        WebElement webElement=driver.findElement(By.xpath("//span[@slot='my-text']"));
-        webElement.click();
-        webElement.clear();
-        webElement.sendKeys("test1");
-        Thread.sleep(2000);
-        webElement.sendKeys(Keys.ENTER);
-        webElement.sendKeys("test2");
-        driver.switchTo().defaultContent();
-        WebElement webElement1=driver.findElement(By.xpath("//button[@title='Bold']"));
-        webElement1.click();
-        Thread.sleep(3000);
-        webElement=driver.findElement(By.xpath("//div[@role='menubar']//button[4]"));
-        webElement.click();
-        Thread.sleep(2000);
-        webElement= driver.findElement(By.xpath("//div[contains(text(),'Font sizes')]"));
-        webElement.click();
-        webElement= driver.findElement(By.xpath("//div[@title='24pt']"));
-        webElement.click();*/
+
     }
 
 
